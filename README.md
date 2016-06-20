@@ -4,7 +4,6 @@
 
 [![Download Month](https://img.shields.io/pypi/v/pyTelegramBotAPI.svg)](https://pypi.python.org/pypi/pyTelegramBotAPI)
 [![Build Status](https://travis-ci.org/eternnoir/pyTelegramBotAPI.svg?branch=master)](https://travis-ci.org/eternnoir/pyTelegramBotAPI)
-[![Download Month](https://img.shields.io/pypi/dm/pyTelegramBotAPI.svg)](https://pypi.python.org/pypi/pyTelegramBotAPI)
 
   * [Getting started.](#getting-started)
   * [Writing your first bot](#writing-your-first-bot)
@@ -452,7 +451,7 @@ The TeleBot constructor takes the following optional arguments:
 As an alternative to the message handlers, one can also register a function as a listener to TeleBot. Example:
 ```python
 def handle_messages(messages):
-	for message in messsages:
+	for message in messages:
 		# Do something with the message
 		bot.reply_to(message, 'Hi')
 
